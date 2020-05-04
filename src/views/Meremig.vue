@@ -132,6 +132,10 @@ margin-bottom: 100px;
 }
 
 @media only screen and (max-width: 600px) {
+#tilbage {
+  display: none;
+}
+
 #foto p {
   line-height: 1.8;
   color: #fff;

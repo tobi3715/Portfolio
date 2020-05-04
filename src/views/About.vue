@@ -37,7 +37,7 @@ body {
   height: 50px;
   width: 65px;
   transition: all 0.25s ease-in-out;
-  margin: -55.5px 0 0 -753px;
+  margin: -55.5px 0 0 -743px;
   z-index: 1;
 }
 
@@ -107,6 +107,10 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+#tilbage {
+  display: none;
+}
+
 .forside-content {
   height: 78vh;
 } 

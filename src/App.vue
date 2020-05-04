@@ -10,7 +10,7 @@
           <li><router-link to="/" id="forside">Forside</router-link></li>
           </ul>
           <ul>
-          <li><a id="kontakt" href="#">Kontakt</a></li>
+          <li><a href="#footer_container" class="scrollLink" id="kontakt">Kontakt</a></li>
           </ul>
       </nav>
     <router-view/>
@@ -19,7 +19,7 @@
         <div id="footer_bottom">
             <div id="footer_box">
                 <h3>Email</h3>
-                <a name="email"><p>soellingvraa52@gmail.com</p></a>
+                <a><p>soellingvraa52@gmail.com</p></a>
             </div>
             <div id="footer_box">
                     <h3>LinkedIn</h3>
@@ -44,6 +44,7 @@
 
 html {
   font-size: 15px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -106,7 +107,7 @@ body {
   color: #fff;
 }
 
-#email {
+#kontakt {
   overflow: scroll;
 }
 
@@ -196,12 +197,12 @@ a {
 </style>
 
 <script>
-/*function scrollToAnchor(aid){
-    var aTag = $("a[email='"+ aid +"']");
-    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
-}
-
-$("#kontakt").click(function() {
-   scrollToAnchor('email');
-}); */
+/*
+$(document).ready(function(){
+    $( "a.scrollLink" ).click(function( event ) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 1000);
+    });
+});
+*/
 </script>

@@ -313,6 +313,10 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
+#tilbage {
+  display: none;
+}
+
 #intro {
   padding-top: 2.5rem;
   font-size: 1.5rem;
@@ -329,7 +333,7 @@ a {
 .timeline {
   position: relative;
   margin: 50px auto;
-  width: 80vw;
+  width: 100vw;
   padding: 40px 0;
   box-sizing: border-box;
 }

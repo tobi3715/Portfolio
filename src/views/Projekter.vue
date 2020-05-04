@@ -188,7 +188,10 @@
 }
 /*
 Media rules start */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
+#tilbage {
+  display: none;
+}
 
 .projekter h2 {
   text-align: center;
