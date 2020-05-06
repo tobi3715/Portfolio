@@ -19,7 +19,7 @@
         <div id="footer_bottom">
             <div id="footer_box">
                 <h3>Email</h3>
-                <a><p>soellingvraa52@gmail.com</p></a>
+                <a href="mailto:soellingvraa52@gmail.com" target="_blank">soellingvraa52@gmail.com</a>
             </div>
             <div id="footer_box">
                     <h3>LinkedIn</h3>
@@ -52,12 +52,6 @@ body {
   background-color: #1d252d;
 }
 
-/* Overordenede egenskaber */
-.container {
-  max-width: 100vw;
-  margin: auto;
-}
-
 .text-primary {
   color: #74e0fd;
 }
@@ -68,7 +62,7 @@ body {
   justify-content: space-between;
   background:rgb(24, 24, 24);
   color: #fff;
-  padding: 1.5rem 8rem;
+  padding: 24px 128px;
   z-index: 1;
   border-radius: 3px solid #fff;
   border-bottom: 1px solid #74e0fd;
@@ -82,24 +76,20 @@ body {
   list-style: none;
 }
 
-#navbar h2 a {
-  color: #fff;
-  text-decoration: none;
-}
 
 #navbar li a {
   text-decoration: none;
   color: #74e0fd;
-  padding: 1rem;
-  font-size: 1.3rem;
-  margin: 0 0.5rem;
+  padding: 16px;
+  font-size: 16px;
+  margin: 0 8px;
   border-radius: 5px;
   transition: background-color 0.5s;
 }
 
 #navbar li #forside {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 18px;
 }
 
 #navbar li a:hover {
@@ -130,19 +120,27 @@ a {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    margin-bottom: 4rem;
+    padding-bottom: 30px;
 }
 
 #footer_bottom {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 30px
+}
+
+#footer_bottom p {
+  font-size: 8px;
+  margin-top: 7px;
+}
+
+#footer_bottom a {
+  font-size: 8px;
 }
 
 footer h3 {
     margin-top: 10px;
     color: #74e0fd;
-    font-size: 1.2rem;
+    font-size: 14px;
 }
 
 #app {
@@ -160,36 +158,53 @@ footer h3 {
   padding:0;
   }
 
+
+#navbar li a {
+  text-decoration: none;
+  color: #74e0fd;
+  padding: 16px;
+  font-size: 16px;
+  margin: 0 8px;
+  border-radius: 5px;
+  transition: background-color 0.5s;
+}
+
 footer {
 background:rgb(24, 24, 24);
-height: 11vh;
+height: 10vh;
 display: flex;
 justify-content: center;
 color: white;
-padding: 30px 0 0 0;
 box-sizing: border-box;
 align-items: center;
+padding-top: 30px;
 }
 
 #footer_bottom {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 30px
+}
+
+#footer_container {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-bottom: 30px;
 }
 
 footer h3 {
-    margin-top: 10px;
     color: #74e0fd;
-    font-size: 0.7rem;
+    font-size: 15px;
 }
 
 footer p {
-  font-size: 0.5rem;
+  font-size: 8px;
   margin-top: 8px;
 }
 
 a {
-  font-size: 0.5rem;
+  font-size: 8px;
 }
 
 }

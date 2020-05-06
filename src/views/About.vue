@@ -37,7 +37,7 @@ body {
   height: 50px;
   width: 65px;
   transition: all 0.25s ease-in-out;
-  margin: -55.5px 0 0 -743px;
+  margin: -76px 0 0 -532.5px;
   z-index: 1;
 }
 
@@ -53,18 +53,13 @@ body {
   justify-content: center;
   background: rgba(0, 0, 0, 0.2);
   color: #fff;
-  height: 90vh;
-}
-
-.forside-content h1 {
-  font-size: 3rem;
-  margin-bottom: 1.5rem;
+  height: 100vh;
 }
 
 .forside-content .btn {
   box-sizing: border-box;
-  font-size: 1.4rem;
-  padding: 2rem 2rem;
+  font-size: 16px;
+  padding: 32px 32px;
   transition: color 1s, background 1s;
 }
 
@@ -75,13 +70,15 @@ body {
 
 .container_top {
   width: 600px;
-  height: 300px;
+  height: 250px;
   display: flex;
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
   justify-content: space-around;
+  margin-top: -70px;
 }
+
 .container_bot {
   width: 300px;
   height: 300px;
@@ -95,12 +92,12 @@ body {
 .btn {
   color: #74e0fd;
   text-decoration: none;
-  padding: 1rem 2rem;
+  padding: 16px 32px;
   border: 1px solid #74e0fd;
   border-radius: 50%;
   font-weight: normal;
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -115,6 +112,10 @@ body {
   height: 78vh;
 } 
 
+.forside-content .btn {
+  font-size: 16px;
+}
+
 .container_top {
   width: 350px;
   height: 175px;
@@ -123,8 +124,12 @@ body {
   .btn {
   width: 150px;
   height: 150px;
-
   }
+
+.btn a {
+
+}
+
 }
 
 </style>

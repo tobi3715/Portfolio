@@ -137,28 +137,37 @@
 #intro {
   height: 50px;
   width: 100%;
-  padding-top: 3rem;
-  font-size: 1.7rem;
+  padding-top: 48px;
   color: #fff;
-  margin-bottom: 7rem;
+  margin-bottom: 112px;
+}
+
+#intro h1 {
+  font-size: 35px;
 }
 
 #skole {
   height: 50px;
   width: 100%;
-  padding-top: 2rem;
-  font-size: 1.3rem;
+  padding-top: 32px;
   color: #fff;
-  margin-bottom: -2rem;
+  margin-bottom: -32px;
+}
+
+#skole h2 {
+  font-size: 25px;
 }
 
 #job {
   height: 50px;
   width: 100%;
-  padding-top: 2rem;
-  font-size: 1.3rem;
+  padding-top: 32px;
   color: #fff;
-  margin-bottom: -2rem;
+  margin-bottom: -32px;
+}
+
+#job h2 {
+  font-size: 25px;
 }
 
 .timeline {
@@ -209,7 +218,11 @@ a {
 }
 
 .content {
-  padding-bottom: 3rem;
+  padding-bottom: 48px;
+}
+
+.content h3 {
+  font-size: 21px;
 }
 
 .timeline ul li:nth-child(odd):before {
@@ -241,7 +254,6 @@ a {
   padding: 0;
   font-weight: normal;
   color: #74e0fd;
-  font-size: 1.4rem;
 }
 
 .timeline ul li p {
@@ -249,13 +261,12 @@ a {
   padding: 0;
   color: #fff;
   font-weight: lighter;
-  font-size: 1.3rem;
 }
 
 .timeline ul li .time h4 {
   margin: 0;
   padding: 0;
-  font-size: 1rem;
+  font-size: 16px;
 }
 
 .timeline ul li:nth-child(odd) .time {
@@ -265,7 +276,7 @@ a {
   margin: 0;
   padding: 8px 16px;
   border: solid 3px #74e0fd;
-  border-radius: 1.5rem;
+  border-radius: 24px;
   color: #fff;
   box-shadow: 0 0 0 3px rgba(72, 169, 197, 0.2);
 }
@@ -277,7 +288,7 @@ a {
   margin: 0;
   padding: 8px 16px;
   border: solid 3px #74e0fd;
-  border-radius: 1.5rem;
+  border-radius: 24px;
   color: #fff;
   box-shadow: 0 0 0 3px rgba(72, 169, 197, 0.2);
 }
@@ -288,28 +299,32 @@ a {
 }
 
 #opsummering {
-  height: 500px;
+  height: 300px;
   width: 60%;
-  margin-bottom: 8rem;
+  margin-bottom: 128px;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: 16px;
   color: #fff;
-  padding: 2rem 3rem 0 3rem;
+  padding: 32px 48px 0 48px;
   display: flex;
   flex-wrap: wrap;
   font-weight: lighter;
   line-height: 1.5;
   text-align: center;
   border: solid 3px #84329b;
-  border-radius: 1.5rem;
+  border-radius: 24px;
   box-sizing: border-box;
 }
 
 #opsummering h2 {
   color: #74e0fd;
-  font-size: 2rem;
+  font-size: 20px;
   font-weight: bold;
-  margin-bottom: -12rem;
+  margin-bottom: -192px;
+}
+
+#opsummering p {
+  margin-top: 20px
 }
 
 @media only screen and (max-width: 600px) {
@@ -318,16 +333,16 @@ a {
 }
 
 #intro {
-  padding-top: 2.5rem;
-  font-size: 1.5rem;
+  padding-top: 40px;
+  font-size: 24px;
 }
 
 #skole {
-  font-size: 1.1rem;
+  font-size: 17px;
 }
 
 #job {
-  font-size: 1.1rem;
+  font-size: 17px;
 }
 
 .timeline {
@@ -367,7 +382,7 @@ a {
 
 .timeline ul li:nth-child(odd) {
   float: left;
-  text-align: right;
+  text-align: left;
   clear: both;
 }
 
@@ -378,7 +393,7 @@ a {
 }
 
 .content {
-  padding-bottom: 3rem;
+  padding-bottom: 48px;
 }
 
 .timeline ul li:nth-child(odd):before {
@@ -410,7 +425,7 @@ a {
   padding: 0;
   font-weight: normal;
   color: #74e0fd;
-  font-size: 1.4rem;
+  font-size: 15px;
 }
 
 .timeline ul li p {
@@ -418,13 +433,13 @@ a {
   padding: 0;
   color: #fff;
   font-weight: lighter;
-  font-size: 1.3rem;
+  font-size: 13px;
 }
 
 .timeline ul li .time h4 {
   margin: 0;
   padding: 0;
-  font-size: 1rem;
+  font-size: 16px;
 }
 
 .timeline ul li:nth-child(odd) .time {
@@ -434,7 +449,7 @@ a {
   margin: 0;
   padding: 8px 16px;
   border: solid 3px #74e0fd;
-  border-radius: 1.5rem;
+  border-radius: 24px;
   color: #fff;
   box-shadow: 0 0 0 3px rgba(72, 169, 197, 0.2);
 }
@@ -446,24 +461,24 @@ a {
   margin: 0;
   padding: 8px 16px;
   border: solid 3px #74e0fd;
-  border-radius: 1.5rem;
+  border-radius: 24px;
   color: #fff;
   box-shadow: 0 0 0 3px rgba(72, 169, 197, 0.2);
 }
  
   #opsummering {
-    max-height: 400px;
+    max-height: 60%;
     max-width: 60%;
-    text-align: justify;
+    text-align: left;
   }
 
   #opsummering h2 {
-    font-size: 1.1rem;
+    font-size: 17px;
     
   }
 
   #opsummering p {
-    font-size: 0.6rem;
+    font-size: 10px;
   }
 
 }

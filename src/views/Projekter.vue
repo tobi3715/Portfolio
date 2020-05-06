@@ -38,10 +38,10 @@
       </div>
       <div class="projekter">
         <h2>
-          CMS Reklame
-          <span class="text-primary">Film</span>
+          UX & CC
+          <span class="text-primary">Projekt</span>
         </h2>
-        <a href="https://docdro.id/C2kzdEN" target="_blank" class="btn">KLIK FOR AT SE MERE</a>
+        <a href="https://xd.adobe.com/view/c9ac8593-f606-41e2-4aff-9c3d77c6384a-bf9d/" target="_blank" class="btn">KLIK FOR AT SE MERE</a>
       </div>
       <div class="projekter">
         <h2>
@@ -89,7 +89,7 @@
 }
 
 #heading {
-  padding: 3rem 0rem;
+  padding: 48px 0;
   width: 100%;
   height: 50px;
   margin-bottom: 100px;
@@ -97,21 +97,15 @@
 
 #heading h1 {
   text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 3rem;
-  color: #fff;
-}
-
-#heading h3 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+  font-size: 35px;
+  margin-bottom: 48px;
   color: #fff;
 }
 
 #heading p.start {
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
   color: #fff;
-  font-size: 1.3rem;
+  font-size: 20px;
 }
 
 #content {
@@ -123,33 +117,33 @@
   align-items: center;
   box-sizing: border-box;
   justify-content: space-around;
-  margin-bottom: 3rem;
+  margin-bottom: 48px;
 }
 
 #content h2 {
   text-align: left;
-  font-size: 2.5rem;
+  font-size: 30px;
   color: #fff;
 }
 
 #content p.start {
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
   color: #fff;
-  font-size: 1.3rem;
+  font-size: 20px;
 }
 
 .projekter {
-  height: 250px;
+  height: 225px;
   width: 45vw;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 16px;
+  margin-bottom: 16px;
   justify-content: space-between;
   display: flex;
-  padding: 0.7rem;
+  padding: 11px;
   box-sizing: border-box;
   border: solid #74e0fd;
-  border-radius: 1.5rem;
-  box-shadow: black 1rem 1rem 1rem;
+  border-radius: 24px;
+  box-shadow: black 16px 16px 16px;
   transition: 1s;
 }
 
@@ -161,19 +155,20 @@
 .btn {
   color: #fff;
   text-decoration: none;
-  padding: 1rem 2rem;
+  padding: 16px 32px;
   border: 3px solid #84329b;
   border-radius: 50%;
   font-weight: normal;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: color 1s, background 1s;
-  font-size: 1.5rem;
-  margin-top: 10px;
+  font-size: 12px;
+  margin-top: 20px;
 }
+
 
 .btn:hover {
   background: #84329b;
@@ -195,8 +190,8 @@ Media rules start */
 
 .projekter h2 {
   text-align: center;
-  font-size: 1.3rem !important;
-  margin-bottom: 3rem;
+  font-size: 20px !important;
+  margin-bottom: 48px;
   color: #fff;  
   }
 
@@ -207,9 +202,9 @@ Media rules start */
 }
 
 .btn {
-  max-width:150px; 
-  max-height: 150px;
-  font-size: 1rem;
+  max-width:125px; 
+  max-height: 125px;
+  font-size: 13px;
   margin-top: 30px;
 }
 }

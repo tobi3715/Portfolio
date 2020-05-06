@@ -21,10 +21,10 @@
         </div>
         <div id="cv-container">
           <div class="video-cv">
-            <h2>
+            <h1>
               VIDEO
               <span class="text-primary">CV</span>
-            </h2>
+            </h1>
             <iframe
               width="75%"
               height="80%"
@@ -63,7 +63,7 @@ margin-bottom: 100px;
   height: 50px;
   width: 65px;
   transition: all 0.25s ease-in-out;
-  margin: 0 0 0 100px;
+  margin: 10px 0 0 100px;
   z-index: 1;
 }
 
@@ -72,18 +72,12 @@ margin-bottom: 100px;
 }
 
 #about {
-  padding: 3rem 0rem;
+  padding: 38px 0;
 }
 
 #about h1 {
   text-align: center;
-  font-size: 2.5rem;
-  color: #fff;
-}
-
-#about h2 {
-  text-align: center;
-  font-size: 2.5rem;
+  font-size: 35px;
   color: #fff;
   margin: -20px 0 20px 0;
 }
@@ -96,7 +90,7 @@ margin-bottom: 100px;
 #foto p {
   line-height: 1.8;
   color: #fff;
-  font-size: 1.4rem;
+  font-size: 15px;
   text-align: justify;
 }
 #foto .curve {
@@ -104,7 +98,7 @@ margin-bottom: 100px;
   height: auto;
   min-width: 150px;
   float: left;
-  margin-right: 7.5rem;
+  margin-right: 120px;
   border-radius: 50%;
   -webkit-shape-outside: circle();
   shape-outside: circle();
@@ -117,11 +111,7 @@ margin-bottom: 100px;
   justify-content: space-between;
   width: 100%;
   top: 81px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
   background: rgba(0, 0, 0, 0.2);
-  height: 100%;
 }
 
 .video-cv {
@@ -136,12 +126,31 @@ margin-bottom: 100px;
   display: none;
 }
 
+#about h1 {
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  margin: 0;
+}
+
+#foto .curve {
+  width: 30%;
+  height: auto;
+  min-width: 200px;
+  float: left;
+  margin-right: 120px;
+  border-radius: 50%;
+  -webkit-shape-outside: circle();
+  shape-outside: circle();
+  margin-top: -50px;
+}
+
 #foto p {
   line-height: 1.8;
   color: #fff;
-  font-size: 1.4rem;
+  font-size: 22px;
   text-align: start;
-  padding-top: 150px;
+  padding-top: 200px;
 }
 }
 </style>
