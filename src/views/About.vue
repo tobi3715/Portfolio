@@ -1,25 +1,25 @@
 <template>
 <v-app>
   <body>
-      <div class="forside-content">
-        <router-link to="/">
-          <div id="tilbage"></div>
-        </router-link>
-        <div class="container_top">
-          <router-link to="/Meremig" class="btn">MERE OM MIG</router-link>
-          <router-link to="/Projekter" class="btn">MINE PROJEKTER</router-link>
-        </div>
-        <div id="container_bot">
-          <router-link to="/Erfaringer" class="btn">ERFARINGER</router-link>
-        </div>
+    <div class="forside-content">
+      <router-link to="/">
+        <div id="tilbage"></div>
+      </router-link>
+      <div class="container_top">
+        <router-link to="/Meremig" class="btn">MERE OM MIG</router-link>
+        <router-link to="/Projekter" class="btn">MINE PROJEKTER</router-link>
       </div>
+      <div id="container_bot">
+        <router-link to="/Erfaringer" class="btn">ERFARINGER</router-link>
+      </div>
+    </div>
   </body>
 </v-app>
 </template>
 
 <style scoped>
 body {
-  background-image: url('../assets/baggrund.jpg');
+  background-image: url("../assets/baggrund.jpg");
   background-size: cover;
 }
 
@@ -31,7 +31,8 @@ body {
     100% 80%,
     40% 80%,
     40% 100%,
-    0% 50%);
+    0% 50%
+  );
   background-color: #74e0fd;
   border: 1px solid #74e0fd;
   height: 50px;
@@ -104,32 +105,28 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-#tilbage {
-  display: none;
-}
+  #tilbage {
+    display: none;
+  }
 
-.forside-content {
-  height: 78vh;
-} 
+  .forside-content {
+    height: 78vh;
+  }
 
-.forside-content .btn {
-  font-size: 16px;
-}
+  .forside-content .btn {
+    font-size: 16px;
+  }
 
-.container_top {
-  width: 350px;
-  height: 175px;
- 
+  .container_top {
+    width: 350px;
+    height: 175px;
   }
   .btn {
-  width: 150px;
-  height: 150px;
+    width: 150px;
+    height: 150px;
   }
 
-.btn a {
-
+  .btn a {
+  }
 }
-
-}
-
 </style>

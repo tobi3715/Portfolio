@@ -1,45 +1,55 @@
 <template>
-
   <v-app>
-  <div id="app">
- <nav id="navbar">
-          <ul>
-          <li><a href="https://www.linkedin.com/in/tobias-soellingvraa/" target="_blank">Linked <i class="fa fa-linkedin"></i></a></li>
-          </ul>
-          <ul>
-          <li><router-link to="/" id="forside">Forside</router-link></li>
-          </ul>
-          <ul>
-          <li><a href="#footer_container" class="scrollLink" id="kontakt">Kontakt</a></li>
-          </ul>
+    <div id="app">
+      <nav id="navbar">
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/tobias-soellingvraa/" target="_blank">
+              Linked
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <router-link to="/" id="forside">Forside</router-link>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#footer_container" class="scrollLink" id="kontakt">Kontakt</a>
+          </li>
+        </ul>
       </nav>
-    <router-view/>
-<footer>
-    <div id="footer_container">
-        <div id="footer_bottom">
+      <router-view />
+      <footer>
+        <div id="footer_container">
+          <div id="footer_bottom">
             <div id="footer_box">
-                <h3>Email</h3>
-                <a href="mailto:soellingvraa52@gmail.com" target="_blank">soellingvraa52@gmail.com</a>
+              <h3>Email</h3>
+              <a href="mailto:soellingvraa52@gmail.com" target="_blank">soellingvraa52@gmail.com</a>
             </div>
             <div id="footer_box">
-                    <h3>LinkedIn</h3>
-                    <a name="linkedin" href="https://www.linkedin.com/in/tobias-soellingvraa/">https://www.linkedin.com/in/tobias-soellingvraa/</a>
+              <h3>LinkedIn</h3>
+              <a
+                name="linkedin"
+                href="https://www.linkedin.com/in/tobias-soellingvraa/"
+              >https://www.linkedin.com/in/tobias-soellingvraa/</a>
             </div>
+          </div>
         </div>
+      </footer>
     </div>
-</footer>
-  </div>
-
-</v-app>
+  </v-app>
 </template>
 
 <style>
 /* General styling background-image: url(./assets/design.png); */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 html {
@@ -60,14 +70,14 @@ body {
 #navbar {
   display: flex;
   justify-content: space-between;
-  background:rgb(24, 24, 24);
+  background: rgb(24, 24, 24);
   color: #fff;
   padding: 24px 128px;
   z-index: 1;
   border-radius: 3px solid #fff;
   border-bottom: 1px solid #74e0fd;
   height: 10vh;
-  flex: 3
+  flex: 3;
 }
 
 #navbar ul {
@@ -75,7 +85,6 @@ body {
   align-items: center;
   list-style: none;
 }
-
 
 #navbar li a {
   text-decoration: none;
@@ -102,12 +111,12 @@ body {
 }
 
 footer {
-background:rgb(24, 24, 24);
-height: 11vh;
-display: flex;
-justify-content: center;
-color: white;
-padding: 30px 0 0 0;
+  background: rgb(24, 24, 24);
+  height: 11vh;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 30px 0 0 0;
 }
 
 a {
@@ -116,16 +125,16 @@ a {
 }
 
 #footer_container {
-    width: 90%;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    padding-bottom: 30px;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-bottom: 30px;
 }
 
 #footer_bottom {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 #footer_bottom p {
@@ -138,9 +147,9 @@ a {
 }
 
 footer h3 {
-    margin-top: 10px;
-    color: #74e0fd;
-    font-size: 14px;
+  margin-top: 10px;
+  color: #74e0fd;
+  font-size: 14px;
 }
 
 #app {
@@ -152,72 +161,59 @@ footer h3 {
   height: 90vh;
 }
 
-
 @media only screen and (max-width: 600px) {
-#navbar {
-  padding:0;
+  #navbar {
+    padding: 0;
   }
 
+  #navbar li a {
+    text-decoration: none;
+    color: #74e0fd;
+    padding: 16px;
+    font-size: 16px;
+    margin: 0 8px;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+  }
 
-#navbar li a {
-  text-decoration: none;
-  color: #74e0fd;
-  padding: 16px;
-  font-size: 16px;
-  margin: 0 8px;
-  border-radius: 5px;
-  transition: background-color 0.5s;
-}
+  footer {
+    background: rgb(24, 24, 24);
+    height: 16vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+    box-sizing: border-box;
+    align-items: center;
+  }
 
-footer {
-background:rgb(24, 24, 24);
-height: 10vh;
-display: flex;
-justify-content: center;
-color: white;
-box-sizing: border-box;
-align-items: center;
-padding-top: 30px;
-}
-
-#footer_bottom {
+  #footer_bottom {
     display: flex;
     justify-content: space-evenly;
-}
+  }
 
-#footer_container {
+  #footer_container {
     width: 90%;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    padding-bottom: 30px;
-}
+    padding: 0px 0 30px 0 !important;
+  }
 
-footer h3 {
+  footer h3 {
     color: #74e0fd;
     font-size: 15px;
-}
+  }
 
-footer p {
-  font-size: 8px;
-  margin-top: 8px;
-}
+  footer p {
+    font-size: 8px;
+    margin-top: 8px;
+  }
 
-a {
-  font-size: 8px;
+  a {
+    font-size: 8px;
+  }
 }
-
-}
-
 </style>
 
 <script>
-/*
-$(document).ready(function(){
-    $( "a.scrollLink" ).click(function( event ) {
-        event.preventDefault();
-        $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 1000);
-    });
-});
-*/
 </script>

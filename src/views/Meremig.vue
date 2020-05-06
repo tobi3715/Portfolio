@@ -5,12 +5,12 @@
       <div id="container">
         <section id="back">
           <router-link to="/About">
-          <div id="tilbage"></div>
-        </router-link>
-        <h1 class="about-heading">
-          Lær mig at
-          <span class="text-primary">kende</span>
-        </h1>
+            <div id="tilbage"></div>
+          </router-link>
+          <h1 class="about-heading">
+            Lær mig at
+            <span class="text-primary">kende</span>
+          </h1>
         </section>
         <div id="foto">
           <img src="../assets/mig.jpg" alt="Billede a mig" class="curve" />
@@ -43,9 +43,9 @@
 
 <style scoped>
 #back {
-height: 50px;
-width: 100%;
-margin-bottom: 100px;
+  height: 50px;
+  width: 100%;
+  margin-bottom: 100px;
 }
 
 #tilbage {
@@ -122,35 +122,35 @@ margin-bottom: 100px;
 }
 
 @media only screen and (max-width: 600px) {
-#tilbage {
-  display: none;
-}
+  #tilbage {
+    display: none;
+  }
 
-#about h1 {
-  text-align: center;
-  font-size: 30px;
-  color: #fff;
-  margin: 0;
-}
+  #about h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    margin: 0;
+  }
 
-#foto .curve {
-  width: 30%;
-  height: auto;
-  min-width: 200px;
-  float: left;
-  margin-right: 120px;
-  border-radius: 50%;
-  -webkit-shape-outside: circle();
-  shape-outside: circle();
-  margin-top: -50px;
-}
+  #foto .curve {
+    width: 30%;
+    height: auto;
+    min-width: 250px;
+    float: center;
+    margin-right: 120px;
+    border-radius: 50%;
+    -webkit-shape-outside: circle();
+    shape-outside: circle();
+    margin-top: -50px;
+  }
 
-#foto p {
-  line-height: 1.8;
-  color: #fff;
-  font-size: 22px;
-  text-align: start;
-  padding-top: 200px;
-}
+  #foto p {
+    line-height: 1.8;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 200px;
+  }
 }
 </style>

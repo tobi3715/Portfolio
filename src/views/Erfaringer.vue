@@ -3,8 +3,8 @@
   <body>
     <section id="intro">
       <router-link to="/About">
-          <div id="tilbage"></div>
-        </router-link>
+        <div id="tilbage"></div>
+      </router-link>
       <h1>
         Tidslinje af mine
         <span class="text-primary">erfaringer</span>
@@ -101,10 +101,10 @@
       </ul>
     </div>
     <section id="bottom">
-    <div id="opsummering">
-      <h2>Opsummering</h2>
-      <p>På baggrund af mine tidligere og nuværende jobs har jeg fået utrolig mange erfaringer og kvaliteter. Mine tjener jobs har bl.a. gjort, at jeg er god til at have mange bolde i luften på samme tid, bevare overblik og fokus i stressede situationer og være effektiv, samtidig med altid at have et smil på læben. Derudover var det som servicemedarbejder vigtigt at være utrolig præcis og fokuseret, da jeg arbejdede med kemikalier, så fejltagelser kunne være livstruende for både mig selv og andre. Fra alle mine jobs har jeg haft utrolig meget kunde-kontakt, hvilket har gjort at jeg er utrolig serviceminded og imødekommende, samt at jeg ved hvad det vil sige at yde en god service.</p>
-    </div>
+      <div id="opsummering">
+        <h2>Opsummering</h2>
+        <p>På baggrund af mine tidligere og nuværende jobs har jeg fået utrolig mange erfaringer og kvaliteter. Mine tjener jobs har bl.a. gjort, at jeg er god til at have mange bolde i luften på samme tid, bevare overblik og fokus i stressede situationer og være effektiv, samtidig med altid at have et smil på læben. Derudover var det som servicemedarbejder vigtigt at være utrolig præcis og fokuseret, da jeg arbejdede med kemikalier, så fejltagelser kunne være livstruende for både mig selv og andre. Fra alle mine jobs har jeg haft utrolig meget kunde-kontakt, hvilket har gjort at jeg er utrolig serviceminded og imødekommende, samt at jeg ved hvad det vil sige at yde en god service.</p>
+      </div>
     </section>
   </body>
 </v-app>
@@ -324,162 +324,163 @@ a {
 }
 
 #opsummering p {
-  margin-top: 20px
+  margin-top: 20px;
 }
 
 @media only screen and (max-width: 600px) {
-#tilbage {
-  display: none;
-}
+  #tilbage {
+    display: none;
+  }
 
-#intro {
-  padding-top: 40px;
-  font-size: 24px;
-}
+  #intro {
+    padding-top: 40px;
+    font-size: 24px;
+  }
 
-#skole {
-  font-size: 17px;
-}
+  #skole {
+    font-size: 17px;
+  }
 
-#job {
-  font-size: 17px;
-}
+  #job {
+    font-size: 17px;
+  }
 
-.timeline {
-  position: relative;
-  margin: 50px auto;
-  width: 100vw;
-  padding: 40px 0;
-  box-sizing: border-box;
-}
+  .timeline {
+    position: relative;
+    margin: 50px auto;
+    width: 100vw;
+    padding: 40px 0;
+    box-sizing: border-box;
+  }
 
-.timeline:before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  width: 2px;
-  height: 100%;
-  background: #84329b;
-}
+  .timeline:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background: #84329b;
+  }
 
-a {
-  text-decoration: none;
-}
+  a {
+    text-decoration: none;
+  }
 
-.timeline ul {
-  margin: 0;
-  padding: 0;
-}
+  .timeline ul {
+    margin: 0;
+    padding: 0;
+  }
 
-.timeline ul li {
-  line-height: normal;
-  position: relative;
-  width: 50%;
-  padding: 20px 40px;
-  box-sizing: border-box;
-  list-style: none;
-}
+  .timeline ul li {
+    line-height: normal;
+    position: relative;
+    width: 50%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    list-style: none;
+  }
 
-.timeline ul li:nth-child(odd) {
-  float: left;
-  text-align: left;
-  clear: both;
-}
-
-.timeline ul li:nth-child(even) {
-  float: right;
-  text-align: left;
-  clear: both;
-}
-
-.content {
-  padding-bottom: 48px;
-}
-
-.timeline ul li:nth-child(odd):before {
-  content: "";
-  position: absolute;
-  top: 24px;
-  right: -7px;
-  width: 12px;
-  height: 12px;
-  background: #74e0fd;
-  border-radius: 50%;
-  box-shadow: 0 0 0 3px rgba(72, 169, 197, 0.2);
-}
-
-.timeline ul li:nth-child(even):before {
-  content: "";
-  position: absolute;
-  top: 24px;
-  left: -5px;
-  width: 12px;
-  height: 12px;
-  background: #74e0fd;
-  border-radius: 50%;
-  box-shadow: 0 0 0 3px rgba(72, 169, 197, 0.2);
-}
-
-.timeline ul li h3 {
-  margin: 0;
-  padding: 0;
-  font-weight: normal;
-  color: #74e0fd;
-  font-size: 15px;
-}
-
-.timeline ul li p {
-  margin: 10px 0 0;
-  padding: 0;
-  color: #fff;
-  font-weight: lighter;
-  font-size: 13px;
-}
-
-.timeline ul li .time h4 {
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
-}
-
-.timeline ul li:nth-child(odd) .time {
-  position: absolute;
-  top: 12px;
-  right: -165px;
-  margin: 0;
-  padding: 8px 16px;
-  border: solid 3px #74e0fd;
-  border-radius: 24px;
-  color: #fff;
-  box-shadow: 0 0 0 3px rgba(72, 169, 197, 0.2);
-}
-
-.timeline ul li:nth-child(even) .time {
-  position: absolute;
-  top: 12px;
-  left: -165px;
-  margin: 0;
-  padding: 8px 16px;
-  border: solid 3px #74e0fd;
-  border-radius: 24px;
-  color: #fff;
-  box-shadow: 0 0 0 3px rgba(72, 169, 197, 0.2);
-}
- 
-  #opsummering {
-    max-height: 60%;
-    max-width: 60%;
+  .timeline ul li:nth-child(odd) {
+    float: left;
     text-align: left;
+    clear: both;
+  }
+
+  .timeline ul li:nth-child(even) {
+    float: right;
+    text-align: left;
+    clear: both;
+  }
+
+  .content {
+    padding-bottom: 48px;
+  }
+
+  .timeline ul li:nth-child(odd):before {
+    content: "";
+    position: absolute;
+    top: 24px;
+    right: -7px;
+    width: 12px;
+    height: 12px;
+    background: #74e0fd;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(72, 169, 197, 0.2);
+  }
+
+  .timeline ul li:nth-child(even):before {
+    content: "";
+    position: absolute;
+    top: 24px;
+    left: -5px;
+    width: 12px;
+    height: 12px;
+    background: #74e0fd;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(72, 169, 197, 0.2);
+  }
+
+  .timeline ul li h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    color: #74e0fd;
+    font-size: 15px;
+  }
+
+  .timeline ul li p {
+    margin: 10px 0 0;
+    padding: 0;
+    color: #fff;
+    font-weight: lighter;
+    font-size: 13px;
+  }
+
+  .timeline ul li .time h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+  }
+
+  .timeline ul li:nth-child(odd) .time {
+    position: absolute;
+    top: 12px;
+    right: -165px;
+    margin: 0;
+    padding: 8px 16px;
+    border: solid 3px #74e0fd;
+    border-radius: 24px;
+    color: #fff;
+    box-shadow: 0 0 0 3px rgba(72, 169, 197, 0.2);
+  }
+
+  .timeline ul li:nth-child(even) .time {
+    position: absolute;
+    top: 12px;
+    left: -165px;
+    margin: 0;
+    padding: 8px 16px;
+    border: solid 3px #74e0fd;
+    border-radius: 24px;
+    color: #fff;
+    box-shadow: 0 0 0 3px rgba(72, 169, 197, 0.2);
+  }
+
+  #opsummering {
+    /* max-height: 60%;*/
+    height: auto;
+    max-width: 60%;
+    text-align: center;
   }
 
   #opsummering h2 {
     font-size: 17px;
-    
+    margin-bottom: 1px;
   }
 
   #opsummering p {
     font-size: 10px;
+    margin-bottom: 15px;
   }
-
 }
 </style>

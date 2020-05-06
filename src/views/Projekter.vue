@@ -3,8 +3,8 @@
   <body>
     <section id="heading">
       <router-link to="/About">
-          <div id="tilbage"></div>
-        </router-link>
+        <div id="tilbage"></div>
+      </router-link>
       <h1 class="about-heading">
         Mine
         <span class="text-primary">projekter</span>
@@ -41,7 +41,11 @@
           UX & CC
           <span class="text-primary">Projekt</span>
         </h2>
-        <a href="https://xd.adobe.com/view/c9ac8593-f606-41e2-4aff-9c3d77c6384a-bf9d/" target="_blank" class="btn">KLIK FOR AT SE MERE</a>
+        <a
+          href="https://xd.adobe.com/view/c9ac8593-f606-41e2-4aff-9c3d77c6384a-bf9d/"
+          target="_blank"
+          class="btn"
+        >KLIK FOR AT SE MERE</a>
       </div>
       <div class="projekter">
         <h2>
@@ -169,7 +173,6 @@
   margin-top: 20px;
 }
 
-
 .btn:hover {
   background: #84329b;
   color: #fff;
@@ -184,29 +187,28 @@
 /*
 Media rules start */
 @media only screen and (max-width: 600px) {
-#tilbage {
-  display: none;
-}
-
-.projekter h2 {
-  text-align: center;
-  font-size: 20px !important;
-  margin-bottom: 48px;
-  color: #fff;  
+  #tilbage {
+    display: none;
   }
 
-.projekter {
-  min-width: 90%;
-  display: flex;
-  justify-content: space-between;
-}
+  .projekter h2 {
+    text-align: center;
+    font-size: 20px !important;
+    margin-bottom: 48px;
+    color: #fff;
+  }
 
-.btn {
-  max-width:125px; 
-  max-height: 125px;
-  font-size: 13px;
-  margin-top: 30px;
-}
-}
+  .projekter {
+    min-width: 90%;
+    display: flex;
+    justify-content: space-between;
+  }
 
+  .btn {
+    max-width: 125px;
+    max-height: 125px;
+    font-size: 13px;
+    margin-top: 30px;
+  }
+}
 </style>
