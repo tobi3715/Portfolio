@@ -26,7 +26,7 @@
               <br />
             </h2>
           </span>
-          <router-link to="/About" class="btn">KLIK MIG</router-link>
+          <router-link to="/About" class="btn">KLIK PÅ MIG</router-link>
         </div>
       </div>
     </header>

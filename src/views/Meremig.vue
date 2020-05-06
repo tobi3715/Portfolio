@@ -130,7 +130,7 @@
     text-align: center;
     font-size: 30px;
     color: #fff;
-    margin: 0;
+    margin-bottom: 20px;
   }
 
   #foto .curve {
