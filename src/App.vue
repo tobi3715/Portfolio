@@ -189,6 +189,7 @@ footer h3 {
   #footer_bottom {
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 15px;
   }
 
   #footer_container {
